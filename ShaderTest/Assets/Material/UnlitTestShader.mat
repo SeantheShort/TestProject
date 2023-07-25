@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UnlitTestShader
-  m_Shader: {fileID: -6465566751694194690, guid: 6860f5d7fa0e243469b9fb5f4dc173af,
+  m_Shader: {fileID: -6465566751694194690, guid: ba1fcea7c92ea9f4a98bdee2e60330af,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -57,10 +57,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Distortion: 0.0697
+    - _FireOffset: 1.77
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Time: 10.34
     m_Colors:
     - _Color: {r: 0.67358494, g: 0.85605717, b: 1, a: 1}
+    - _Fire: {r: 1, g: 0.12132272, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Scroll_Speed: {r: 0.25, g: 0, b: 0, a: 0}
     - _Tiling: {r: 5, g: 1, b: 0, a: 0}
